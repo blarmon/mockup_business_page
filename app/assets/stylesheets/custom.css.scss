@@ -1,0 +1,138 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    background: image-url('handonkeyboard.png');
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+.mybutton {
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom,#f58000 0%,#d75426 100%);
+    font-size: 0.8em;
+    font:"Proxima Nova Bold";
+    text-transform: uppercase;
+    border:none;
+    line-height:2.5;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+    width: 125px;
+    cursor: pointer;
+}
+
+header {
+    background-color: white;
+}
+
+form {
+    padding-top: 22px;
+}
+.search.active {
+    transition-property: width;
+    transition-duration: 0.25s;
+    width: 290px;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    text-align: center;
+    margin-bottom: none;
+    padding-bottom: none;
+}
+     
+
+#logo {
+    margin-left: 50px;
+    width: 200px;
+    float: left;
+    padding-top: 7px;
+}
+
+.link{
+    float: left;
+    width: auto;
+    color: black;
+padding-top: 22px;
+}
+
+.link a {
+    color: #d75426;
+}
+
+.link a:hover {
+    text-decoration:none;
+}
+
+.subtitle{
+    font-size:16px;
+    line-height: 150%;
+    font-family: "Proxima Nova Semibold",Arial,sans-serif;
+}
+
+#Maintext {
+    padding-top:180px;
+    padding-left: 100px;
+    width:640px;
+    margin-bottom:500px;
+}
+
+.firstbox {
+    margin-top: 40 px;
+    margin-left: 100px;
+    width: 250px;
+    height: 200px;
+    background-color: grey;
+}
+
+.secondbox{
+    margin-left: 400px;
+    width: 250px;
+    height: 200px;
+    background-color: grey;
+}
+
+.thirdbox{
+    margin-left: 400px;
+    width: 250px;
+    height: 200px;
+    background-color: grey;
+}
+
+.fourthbox {
+    margin-top: 30px;
+    width: 250px;
+    height: 200px;
+    background-color: grey;
+}
+
+.fifthbox {
+    margin-left: 400px;
+    width: 250px;
+    height: 200px;
+    background-color: grey;
+}
+
+.sixthbox {
+    margin-left: 400px;
+    width: 250px;
+    height: 200px;
+    background-color: grey; 
+    margin-bottom: 100px;
+}
+
+.topbutton{
+    position: relative;
+    bottom: 0;
+    float: right;
+    margin-right: 200px;
+    margin-top: 300px;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: lightgrey;
+    margin-top: 335px;
+}
